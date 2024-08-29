@@ -1,0 +1,30 @@
+*{
+    background-color: #333;
+    color: #f5efef;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+.name{
+    font-size: 1rem;
+    font-weight:700; 
+    font-family: Arial, Helvetica, sans-serif; 
+    filter: drop-shadow(2px 2px 10px rgb(14, 178, 228));
+    color: rgb(14, 195, 236);
+  
+    
+  }
+  .banner{
+    background-image: url(https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABer7SeWc6FvkBqWtk61GwL7rshAEVCOARQZVTEJGnLXykYBlO4nbbr6gs7M650BjULuaN6hucXKr5xY2iqPAajrxXd70HawdJeuD.jpg?r=608&quot);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat; 
+    height: 600px;
+   
+  }
+ .posters{
+    display: flex;
+ }
