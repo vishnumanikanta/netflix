@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> triangle button</title>
+    <style>
+        .button{
+        padding: 15px 15px;
+       
+        position: fixed;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20%;
+        }
+        .button::after{
+            content: '';
+            height: 0;
+            width: 0;
+            top: -14px;
+            left: 53%;
+            position: absolute;
+          
+          
+            border-left: 15px  solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid blue;
+           
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <button class="button">button</button>
+</center>
+</body>
+</html>
